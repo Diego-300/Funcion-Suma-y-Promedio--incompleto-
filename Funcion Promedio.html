@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio con Funcion Promedio</title>
+</head>
+<body>
+
+
+<script>
+	
+
+/*Escribir una foncion promedio que tome como parametro una lista y devuelve el promedio de todos su elementos.
+Ejemplos:
+promedio([5,3,1]) debe devolver 3.
+promedio([8,2,3,-5,10]) debe devolver 5.
+promedio([-5]) debe devolver 5.
+*/
+function promedio(lista){
+	
+	var promediofinal
+	var total = 0
+	var contador = 0
+
+	for (var contador = 0; contador < lista.length; contador++) {
+		total+=lista[contador]
+		promediofinal=total/lista.length
+			}
+	return promediofinal
+}
+
+document.write(promedio([-5]))
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
